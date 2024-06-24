@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import withTM from 'next-transpile-modules';
 
-export default nextConfig;
+const nextConfig = {}
+
+export default withTM(['@layerfi/components'])(nextConfig);
