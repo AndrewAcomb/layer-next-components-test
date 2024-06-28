@@ -1,4 +1,6 @@
-import { LayerProvider } from '@layerfi/components'
+"use client";
+
+import { LayerProvider, BankTransactionsWithLinkedAccounts } from '@layerfi/components'
 import React from 'react';
 
 export default function Home() {
@@ -9,7 +11,7 @@ export default function Home() {
       appId={process.env.NEXT_PUBLIC_APP_ID}
       appSecret={process.env.NEXT_PUBLIC_APP_SECRET}
     >
-      <>Howdy</>
+        <BankTransactionsWithLinkedAccounts/>
     </LayerProvider>
   );
 }

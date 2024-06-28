@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@layerfi/components": "^0.1.29",
+    "@layerfi/components": "^0.1.32",
     "next": "14.2.4",
     "next-transpile-modules": "^10.0.1",
     "react": "^18",
